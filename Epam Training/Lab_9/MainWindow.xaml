@@ -1,0 +1,41 @@
+﻿<Window x:Class="Lab_9.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab_9"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="300" Width="500"
+        MinHeight="200" MinWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Menu VerticalAlignment="Center" Grid.ColumnSpan="2">
+            <MenuItem Header="File">
+                <MenuItem Header="Open file" Name="File_Open" Click="OpenFile"></MenuItem>
+                <MenuItem Header="Save file" Name="File_Save" Click="SaveToFile"></MenuItem>
+                <Separator/>
+                <MenuItem Header="Close" Name="File_Close" Click="CloseProgram"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Edit" >
+                <MenuItem Header="Clear" Name="Edit_Clear" Click="ClearAllText"></MenuItem>
+            </MenuItem>
+        </Menu>
+
+        <TextBox x:Name="inputText" Grid.Column="0" Grid.Row="1" Margin="5" TextWrapping="Wrap" FontSize="16" 
+                 AcceptsReturn="True" VerticalScrollBarVisibility="Auto">
+            <TextBox.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Copy" Name="In_Context_Copy" Click="ContextCopySelected"></MenuItem>
+                    <MenuItem Header="Paste" Name="In_Context_Paste" Click="ContextPaste"></MenuItem>
+                    <MenuItem Header="Cut" Name="In_Context_Cut" Click="ContextCutSelected"></MenuItem>
+                    <MenuItem Header="Delete" Name="In_Context_Delete" Click="ContextDelSelected"></MenuItem>
+                </ContextMenu>
+            </TextBox.ContextMenu>
+        </TextBox>
+    </Grid>
+</Window>
