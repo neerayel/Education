@@ -1,0 +1,31 @@
+﻿<Window x:Class="Lab_7_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab_7_2"
+        mc:Ignorable="d"
+        Title="The Polynomial" MinHeight="330" MinWidth="430" MaxHeight="330" MaxWidth="430">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="30,30,0,0" FontSize="14" Text="Переменная:" VerticalAlignment="Top" Width="100" Height="20"/>
+        <TextBox x:Name="InputVar" Text="x" HorizontalAlignment="Left" Margin="140,30,0,0" FontSize="15" MaxLength="1" VerticalAlignment="Top" Width="20" Height="25"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="180,35,0,0" FontSize="11" Text="(x, y, z и т.д.)" VerticalAlignment="Top" Width="70" Height="20"/>
+        
+        <TextBlock HorizontalAlignment="Left" Margin="30,70,0,0" FontSize="14" Text="Многочлен 1:" VerticalAlignment="Top" Width="100" Height="20"/>
+        <TextBox x:Name="InputField1" HorizontalAlignment="Left" Margin="140,70,0,0" FontSize="15" MaxLength="40" VerticalAlignment="Top" Width="250" Height="25"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="30,110,0,0" FontSize="14" Text="Многочлен 2:" VerticalAlignment="Top" Width="100" Height="20"/>
+        <TextBox x:Name="InputField2" HorizontalAlignment="Left" Margin="140,110,0,0" FontSize="15" MaxLength="40" VerticalAlignment="Top" Width="250" Height="25"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="30,150,0,0" FontSize="14" TextWrapping="Wrap" VerticalAlignment="Top" Width="360" Height="20"
+                   Text="Пример ввода:    x^3 + 3x^2 + 5x + 2"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="30,190,0,0" FontSize="14" Text="Результат:" VerticalAlignment="Top" Width="70" Height="20"/>
+        <TextBox x:Name="ResultField" IsReadOnly="True" HorizontalAlignment="Left" Margin="110,190,0,0" FontSize="15" VerticalAlignment="Top" Width="290" Height="25"/>
+        
+        <Button Content="1 + 2" HorizontalAlignment="Left" Margin="30,230,0,0" VerticalAlignment="Top" Height="25" Width="50" Click="Button_Addition"/>
+        <Button Content="1 - 2" HorizontalAlignment="Left" Margin="133,230,0,0" VerticalAlignment="Top" Height="25" Width="50" Click="Button_Subtraction"/>
+        <Button Content="1 * 2" HorizontalAlignment="Left" Margin="233,230,0,0" VerticalAlignment="Top" Height="25" Width="50" Click="Button_Multiplication"/>
+    </Grid>
+</Window>
