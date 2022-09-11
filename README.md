@@ -1,1 +1,1 @@
-## These are results of my self-learning
+## These are results of training courses and my self-learning
