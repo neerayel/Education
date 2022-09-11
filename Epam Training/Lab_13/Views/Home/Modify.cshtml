@@ -1,0 +1,54 @@
+﻿@{
+    Layout = null;
+}
+ 
+<!DOCTYPE html>
+<html>
+<body>
+    <div>
+        <form method="post">
+            <input type="hidden" value="@ViewBag.monitor.ID" name="PhoneId" />
+            <table>
+                <tr>
+                    <td>Производитель:</td>
+                    <td><input type="text" name="Manufacturer" value="@ViewBag.monitor.Manufacturer"/> </td>
+                </tr>
+                <tr>
+                    <td>Модель:</td>
+                    <td><input type="text" name="Model" value="@ViewBag.monitor.Model"/> </td>
+                </tr>
+                <tr>
+                    <td>Код сборки:</td>
+                    <td><input type="text" name="Code" value="@ViewBag.monitor.Code"/> </td>
+                </tr>
+                <tr>
+                    <td>Цена:</td>
+                    <td><input type="number" name="Price" value="@ViewBag.monitor.Price"/> </td>
+                </tr>
+                <tr>
+                    <td>Соотношение сторон:</td>
+                    <td><input type="text" name="AspectRatio" value="@ViewBag.monitor.AspectRatio"/> </td>
+                </tr>
+                <tr>
+                    <td>Разрешение:</td>
+                    <td><input type="text" name="Resolution" value="@ViewBag.monitor.Resolution"/> </td>
+                </tr>
+                <tr>
+                    <td>Диагональ:</td>
+                    <td><input type="text" name="Diagonal" value="@ViewBag.monitor.Diagonal"/> </td>
+                </tr>
+                <tr>
+                    <td>Частота обновления:</td>
+                    <td><input type="text" name="FrameRate" value="@ViewBag.monitor.FrameRate"/> </td>
+                </tr>
+                <tr>
+                    <td>Тип матрицы:</td>
+                    <td><input type="text" name="Matrix" value="@ViewBag.monitor.Matrix"/> </td>
+                </tr>
+                
+                <tr><td><input type="submit" value="Отправить" /> </td><td></td></tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

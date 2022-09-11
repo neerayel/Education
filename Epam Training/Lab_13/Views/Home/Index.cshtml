@@ -1,0 +1,50 @@
+﻿
+@model IEnumerable<Lab_13.Models.Monitor>
+
+@{
+    ViewData["Title"] = "Список мониторов";
+    Layout = null;
+}
+<!DOCTYPE html>
+ 
+<html>
+<head>
+    <title>Магазин мониторов</title>
+</head>
+<body>
+    <h3>Мониторы</h3>
+    <table>
+        <tr>
+            <td>Производитель</td>
+            <td>Модель</td>
+            <td>Код сборки</td>
+            <td>Цена</td>
+            <td>Соотношение сторон</td>
+            <td>Разрешение</td>
+            <td>Диагональ</td>
+            <td>Частота обновления</td>
+            <td>Тип матрицы</td>
+            <td></td>
+        </tr>
+        @foreach (var monitor in Model)
+            {
+            <tr>
+                <td>@monitor.Manufacturer</td>
+                <td>@monitor.Model</td>
+                <td>@monitor.Code</td>
+                <td>@monitor.Price</td>
+                <td>@monitor.AspectRatio</td>
+                <td>@monitor.Resolution</td>
+                <td>@monitor.Diagonal</td>
+                <td>@monitor.FrameRate</td>
+                <td>@monitor.Matrix</td>
+                <td><a href="~/Home/Modify/@monitor.ID">Редактировать</a></td>
+                <td><a href="~/Home/Delete/@monitor.ID">Удалить</a></td>
+            </tr>
+        }
+        <tr>
+            <td><a href="~/Home/Add">Добавить</a></td>
+        </tr>
+    </table>
+</body>
+</html>
