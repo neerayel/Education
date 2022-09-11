@@ -1,0 +1,15 @@
+C:\PREKOLY\Projects\C#\EPAM_TRAINING_COURSE\Lab_4\bin\Debug\net6.0\Lab_4.exe
+C:\PREKOLY\Projects\C#\EPAM_TRAINING_COURSE\Lab_4\bin\Debug\net6.0\Lab_4.deps.json
+C:\PREKOLY\Projects\C#\EPAM_TRAINING_COURSE\Lab_4\bin\Debug\net6.0\Lab_4.runtimeconfig.json
+C:\PREKOLY\Projects\C#\EPAM_TRAINING_COURSE\Lab_4\bin\Debug\net6.0\Lab_4.dll
+C:\PREKOLY\Projects\C#\EPAM_TRAINING_COURSE\Lab_4\bin\Debug\net6.0\ref\Lab_4.dll
+C:\PREKOLY\Projects\C#\EPAM_TRAINING_COURSE\Lab_4\bin\Debug\net6.0\Lab_4.pdb
+C:\PREKOLY\Projects\C#\EPAM_TRAINING_COURSE\Lab_4\obj\Debug\net6.0\Lab_4.csproj.AssemblyReference.cache
+C:\PREKOLY\Projects\C#\EPAM_TRAINING_COURSE\Lab_4\obj\Debug\net6.0\Lab_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\PREKOLY\Projects\C#\EPAM_TRAINING_COURSE\Lab_4\obj\Debug\net6.0\Lab_4.AssemblyInfoInputs.cache
+C:\PREKOLY\Projects\C#\EPAM_TRAINING_COURSE\Lab_4\obj\Debug\net6.0\Lab_4.AssemblyInfo.cs
+C:\PREKOLY\Projects\C#\EPAM_TRAINING_COURSE\Lab_4\obj\Debug\net6.0\Lab_4.csproj.CoreCompileInputs.cache
+C:\PREKOLY\Projects\C#\EPAM_TRAINING_COURSE\Lab_4\obj\Debug\net6.0\Lab_4.dll
+C:\PREKOLY\Projects\C#\EPAM_TRAINING_COURSE\Lab_4\obj\Debug\net6.0\ref\Lab_4.dll
+C:\PREKOLY\Projects\C#\EPAM_TRAINING_COURSE\Lab_4\obj\Debug\net6.0\Lab_4.pdb
+C:\PREKOLY\Projects\C#\EPAM_TRAINING_COURSE\Lab_4\obj\Debug\net6.0\Lab_4.genruntimeconfig.cache
