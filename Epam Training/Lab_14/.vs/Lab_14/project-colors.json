@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d3b1a5f7-dbf2-472f-9424-ac8d2f34a00c": {
+      "ProjectGuid": "d3b1a5f7-dbf2-472f-9424-ac8d2f34a00c",
+      "DisplayName": "Lab_14",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

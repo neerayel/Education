@@ -1,0 +1,28 @@
+﻿<Page x:Class="Lab_14.EditorPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Lab_14"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="EditorPage" Background="White">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition x:Name="Col1"/>
+            <ColumnDefinition Width="100"/>
+        </Grid.ColumnDefinitions>
+
+        <Rectangle Grid.Column="0" Margin="5" Stroke="DimGray" StrokeThickness="2"/>
+
+        <StackPanel Grid.Column="1" HorizontalAlignment="Center" Margin="0, 20, 0, 20">
+            <Button Grid.Column="1" Margin="0, 0, 0, 10" Content="Size" Width="70" Click="BtnClk_Size"/>
+            <Button Grid.Column="1" Margin="0, 0, 0, 20" Content="Color" Width="70" Click="BtnClk_Color"/>
+            <Button x:Name="PaintBtn" IsEnabled="False" Grid.Column="1" Margin="0, 20, 0, 20" Content="Paint" Width="70" Click="BtnClk_Paint"/>
+            <Button Grid.Column="1" Margin="0, 20, 0, 0" Content="Quit" Width="60" Click="BtnClk_Quit"/>
+        </StackPanel>
+
+        <Rectangle x:Name="MainRectangle" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    </Grid>
+</Page>
