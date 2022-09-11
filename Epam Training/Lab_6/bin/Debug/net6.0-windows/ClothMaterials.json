@@ -1,0 +1,28 @@
+{
+  "Material": {
+    "0": "Silk",
+    "1": "Cotton",
+    "2": "Woolen"
+  }
+  "Name": {
+    "0": [
+      "Silk",
+      "Dupont",
+      "Satin",
+      "Crepe"
+    ],
+    "1": [
+      "Velour",
+      "Corduroy",
+      "Denim",
+      "Satin",
+      "Jacquard"
+    ],
+    "2": [
+      "Felt",
+      "Cashmere",
+      "Batting",
+      "Drape"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+﻿<Window x:Class="Lab_6.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab_6"
+        mc:Ignorable="d"
+        Title="Task4" Height="430" Width="500">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Rectangle Grid.Column="0" Margin="5" Stroke="Gray"/>
+        <TextBlock Grid.Column="0" HorizontalAlignment="Left" Margin="40,20,0,0" TextWrapping="Wrap" Text="№" VerticalAlignment="Top" Width="30" Height="20"/>
+        <TextBlock Grid.Column="0" HorizontalAlignment="Left" Margin="40,50,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Width="40" Height="20"></TextBlock>
+        <TextBlock Grid.Column="0" HorizontalAlignment="Left" Margin="40,90,0,0" TextWrapping="Wrap" Text="Color" VerticalAlignment="Top" Width="40" Height="20"></TextBlock>
+        <TextBlock Grid.Column="0" HorizontalAlignment="Left" Margin="40,130,0,0" TextWrapping="Wrap" Text="Rolls number" VerticalAlignment="Top" Width="80" Height="20"></TextBlock>
+        <TextBlock Grid.Column="0" HorizontalAlignment="Left" Margin="80,200,0,0" TextWrapping="Wrap" Text="Price" VerticalAlignment="Top" Width="40" Height="20"></TextBlock>
+        
+        <TextBox Grid.Column="0" x:Name="N_IN" HorizontalAlignment="Left" Margin="100,20,0,0" TextWrapping="Wrap" Text="N" VerticalAlignment="Top" Width="30" Height="20"/>
+        <TextBox Grid.Column="0" x:Name="Name_IN" HorizontalAlignment="Left" Margin="100,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Height="20"/>
+        <TextBox Grid.Column="0" x:Name="Color_IN" HorizontalAlignment="Left" Margin="100,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Height="20"/>
+        <TextBox Grid.Column="0" x:Name="RollsN_IN" HorizontalAlignment="Left" Margin="140,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Height="20"/>
+        <TextBox Grid.Column="0" x:Name="Price_IN" HorizontalAlignment="Left" Margin="140,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Height="20"/>
+        <Button Grid.Column="0" Content="Search" HorizontalAlignment="Left" Margin="135,350,0,0" VerticalAlignment="Top" Width="50" Height="20" Click="Search_btn_clk"/>
+
+
+        <Rectangle Grid.Column="1" Margin="5" Stroke="Gray"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="40,20,0,0" TextWrapping="Wrap" Text="№" VerticalAlignment="Top" Width="30" Height="20"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="40,50,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Width="40" Height="20"></TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="40,90,0,0" TextWrapping="Wrap" Text="Material" VerticalAlignment="Top" Width="40" Height="20"></TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="40,130,0,0" TextWrapping="Wrap" Text="Code" VerticalAlignment="Top" Width="80" Height="20"></TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="40,200,0,0" TextWrapping="Wrap" Text="Average price" VerticalAlignment="Top" Width="90" Height="20"></TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="40,250,0,0" TextWrapping="Wrap" Text="Color match" VerticalAlignment="Top" Width="80" Height="20"></TextBlock>
+
+        <TextBox Grid.Column="1" x:Name="N_OUT" IsReadOnly="True" HorizontalAlignment="Left" Margin="100,20,0,0" TextWrapping="Wrap" Text="N" VerticalAlignment="Top" Width="30" Height="20"/>
+        <TextBox Grid.Column="1" x:Name="Name_OUT" IsReadOnly="True" HorizontalAlignment="Left" Margin="100,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Height="20"/>
+        <TextBox Grid.Column="1" x:Name="Material_OUT" IsReadOnly="True" HorizontalAlignment="Left" Margin="100,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Height="20"/>
+        <TextBox Grid.Column="1" x:Name="Code_OUT" IsReadOnly="True" HorizontalAlignment="Left" Margin="100,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Height="20"/>
+        <TextBox Grid.Column="1" x:Name="AvPrice_OUT" IsReadOnly="True" HorizontalAlignment="Left" Margin="150,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="20"/>
+        <TextBox Grid.Column="1" x:Name="ColMatch_OUT" IsReadOnly="True" HorizontalAlignment="Left" Margin="150,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="30" Height="20"/>
+    </Grid>
+</Window>
